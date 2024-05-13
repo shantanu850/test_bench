@@ -28,7 +28,7 @@ final class SqfliteRepository {
 
   Future<void> initDB() async {
     final pathDB = await getDatabasesPath();
-    final path = join(pathDB, 'cr_logger_logs.db');
+    final path = join(pathDB, 'test_bench_logs.db');
     _database = await openDatabase(
       path,
       onCreate: (database, version) async {

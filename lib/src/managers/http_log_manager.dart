@@ -6,7 +6,7 @@ import 'package:test_bench/src/controllers/logs_mode.dart';
 import 'package:test_bench/src/controllers/logs_mode_controller.dart';
 import 'package:test_bench/src/test_bench_helper.dart';
 import 'package:test_bench/src/providers/sqflite_provider.dart';
-import 'package:test_bench/src/utils/pretty_cr_logger.dart';
+import 'package:test_bench/src/utils/pretty_test_bench.dart';
 
 final class HttpLogManager {
   HttpLogManager._();

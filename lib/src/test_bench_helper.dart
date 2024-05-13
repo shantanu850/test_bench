@@ -9,7 +9,7 @@ import 'package:synchronized/synchronized.dart';
 final class TestBenchHelper {
   TestBenchHelper._();
 
-  static const _proxySharedPrefKey = 'cr_logger_charles_proxy';
+  static const _proxySharedPrefKey = 'test_bench_charles_proxy';
   static TestBenchHelper instance = TestBenchHelper._();
 
   final lock = Lock();

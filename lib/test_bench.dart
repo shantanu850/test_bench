@@ -1,7 +1,7 @@
-library cr_logger;
+library test_bench;
 
 export 'src/test_bench.dart';
-export 'src/cr_logger_wrapper.dart';
+export 'src/test_bench_wrapper.dart';
 export 'src/data/bean/error_bean.dart';
 export 'src/data/bean/http_bean.dart';
 export 'src/data/bean/log_bean.dart';

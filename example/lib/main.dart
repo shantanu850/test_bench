@@ -49,14 +49,14 @@ Future<void> main() async {
     logFileName: 'my_logs',
 
     /// To display logs in our web example on pub.dev
-    /// https://cleveroad.github.io/cr_logger/#/
+    /// https://cleveroad.github.io/test_bench/#/
     useTestBenchInReleaseBuild: !kReleaseMode,
   );
 
   // Second! Define the variables
   TestBenchInitializer.instance.appInfo = {
     'Build type': 'release',
-    'Endpoint': 'https/cr_logger/example/',
+    'Endpoint': 'https/test_bench/example/',
   };
 
   final proxy = TestBenchInitializer.instance.getProxySettings();
@@ -91,7 +91,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  static const platform = MethodChannel('com.cleveroad.cr_logger_example/logs');
+  static const platform = MethodChannel('com.cleveroad.test_bench_example/logs');
   final _debouncer = Debouncer(100);
   late DropzoneViewController _dropCtrl;
   bool _dragging = false;

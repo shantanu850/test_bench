@@ -9,7 +9,7 @@ final class CRStyle {
     fontSize: 20,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const h1Green = TextStyle(
@@ -17,7 +17,7 @@ final class CRStyle {
     fontSize: 20,
     fontWeight: FontWeight.bold,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const h2BlackSemibold = TextStyle(
@@ -25,7 +25,7 @@ final class CRStyle {
     fontSize: 24,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const h3Black = TextStyle(
@@ -33,7 +33,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyGreyRegular14 = TextStyle(
@@ -41,7 +41,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyBlackRegular14 = TextStyle(
@@ -49,7 +49,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyBlueRegular14 = TextStyle(
@@ -57,7 +57,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyBlackSemiBold14 = TextStyle(
@@ -65,13 +65,13 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
   static const bodyBlackSemiDefault13 = TextStyle(
     color: TestBenchColors.black,
     fontSize: 13,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyWhiteSemiBold14 = TextStyle(
@@ -79,7 +79,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyRedMedium14 = TextStyle(
@@ -87,7 +87,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const bodyBlackMedium14 = TextStyle(
@@ -95,7 +95,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
     height: 1.4,
   );
 
@@ -104,7 +104,7 @@ final class CRStyle {
     fontSize: 14,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
     height: 1.4,
   );
 
@@ -113,7 +113,7 @@ final class CRStyle {
     fontSize: 16,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const subtitle1WhiteSemiBold16 = TextStyle(
@@ -121,7 +121,7 @@ final class CRStyle {
     fontSize: 16,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const subtitle1BlackMedium16 = TextStyle(
@@ -129,7 +129,7 @@ final class CRStyle {
     fontSize: 16,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const subtitle1RedMedium16 = TextStyle(
@@ -137,7 +137,7 @@ final class CRStyle {
     fontSize: 16,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const subtitle1BlackSemiBold17 = TextStyle(
@@ -145,7 +145,7 @@ final class CRStyle {
     fontSize: 17,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const captionGreyMedium12 = TextStyle(
@@ -153,7 +153,7 @@ final class CRStyle {
     fontSize: 12,
     fontWeight: FontWeight.w500,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const captionBlackRegular12 = TextStyle(
@@ -161,7 +161,7 @@ final class CRStyle {
     fontSize: 12,
     fontWeight: FontWeight.w400,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 
   static const captionBlackSemiBold12 = TextStyle(
@@ -169,6 +169,6 @@ final class CRStyle {
     fontSize: 12,
     fontWeight: FontWeight.w600,
     fontFamily: 'Epilogue',
-    package: 'cr_logger',
+    package: 'test_bench',
   );
 }
