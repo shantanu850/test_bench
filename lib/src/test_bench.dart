@@ -149,10 +149,10 @@ final class TestBenchInitializer {
     _httpClientAdapter = CRHttpClientAdapter();
     _httpAdapter = CRHttpAdapter();
 
-    if (theme != null) {
-      TestBenchHelper.instance.theme =
-          theme.copyWithDefaultCardTheme(loggerTheme.cardTheme);
-    }
+    // if (theme != null) {
+    //   TestBenchHelper.instance.theme =
+    //       theme.copyWithDefaultCardTheme(loggerTheme.cardTheme);
+    // }
     this.logFileName = logFileName ?? this.logFileName;
     this.hiddenFields = hiddenFields ?? [];
     this.hiddenHeaders = hiddenHeaders ?? [];
